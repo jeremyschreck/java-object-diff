@@ -26,10 +26,10 @@ import java.util.Map;
 
 /**
  * INTERNAL CLASS. DON'T USE UNLESS YOU ARE READY TO DEAL WITH API CHANGES
- *
+ * <p/>
  * Created by Daniel Bechler.
  */
-public class ValueNode<V>
+class ValueNode<V>
 {
 	protected final Map<ElementSelector, ValueNode<V>> children = new HashMap<ElementSelector, ValueNode<V>>();
 	protected final ValueNode<V> parent;

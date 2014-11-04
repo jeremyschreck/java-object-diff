@@ -22,9 +22,6 @@ import de.danielbechler.diff.selector.ElementSelector;
 import static de.danielbechler.diff.inclusion.Inclusion.EXCLUDED;
 import static de.danielbechler.diff.inclusion.Inclusion.INCLUDED;
 
-/**
- * Created by Daniel Bechler.
- */
 class InclusionNode extends ValueNode<Inclusion>
 {
 	InclusionNode()
